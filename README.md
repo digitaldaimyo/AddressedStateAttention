@@ -40,7 +40,9 @@ print(generate(model, tokenizer, "Once upon a time"))
 ```markdown
 ## Results
 
-| Model | Params | Dataset | Steps | Val Loss | PPL |
-|------|--------|---------|------|----------|-----|
-| ASA | 187M | FineWeb | 75k | 3.73 | 41.6 |
+## Results
+
+| Model | Params | Dataset | Steps | Loss ↓ | PPL ↓ |
+|:------|------:|:--------|-----:|------:|------:|
+| ASA   | 187M  | FineWeb | 75k  | 3.73  | 41.6  |
 ```
