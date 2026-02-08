@@ -35,15 +35,12 @@ tokenizer = AutoTokenizer.from_pretrained("gpt2")
 # Generate text
 print(generate(model, tokenizer, "Once upon a time"))
 
-"""
+```
 ---
-
-## 7) Add a short “Results” section
-Turn your header stats into a proper table.
-
 ```markdown
 ## Results
 
 | Model | Params | Dataset | Steps | Val Loss | PPL |
 |------|--------|---------|------|----------|-----|
 | ASA | 187M | FineWeb | 75k | 3.73 | 41.6 |
+```
