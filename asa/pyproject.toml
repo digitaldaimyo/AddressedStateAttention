@@ -1,1 +1,1 @@
-# TODO
+[build-system]\nrequires = ["poetry-core>=1.0.0"]\nbuild-backend = "poetry.core.masonry.api"\n\n[tool.poetry]\nname = "asa"\nversion = "0.1.0"\ndescription = "A package for Addressed State Attention"\nauthors = ["Your Name <youremail@example.com>"]\nlicense = "MIT"\nreadme = "README.md"\n\n[tool.poetry.dependencies]\npython = "^3.8"\ndependency_one = "^1.0"\ndependency_two = "^2.0"\n\n[tool.poetry.dev-dependencies]\npytest = "^6.0"\n
