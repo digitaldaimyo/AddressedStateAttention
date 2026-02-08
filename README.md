@@ -23,10 +23,17 @@
 
 from asa import load_asm_checkpoint, generate
 from transformers import AutoTokenizer
+from huggingface_hub import hf_hub_download
+
+# Download checkpoint from Hugging Face
+ckpt_path = hf_hub_download(
+    repo_id="DigitalDaimyo/AddressedStateAttention",
+    filename="checkpoints/fineweb_187M_75k.pt"
+)
 
 # Load checkpoint
 model, cfg, ckpt = load_asm_checkpoint(
-    "path/to/checkpoint.pt",
+    ckpt_path,
     mode="analysis"
 )
 
