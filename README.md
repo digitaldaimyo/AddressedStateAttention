@@ -9,8 +9,19 @@
 [
 
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
-
 ](link)
+
+## Notebooks
+
+[![Open Analysis Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_analysis.ipynb)
+
+[![Open Training Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_analysis.ipynb)
+
+Browse all notebooks: https://github.com/digitaldaimyo/AddressedStateAttention/tree/main/notebooks
+
+
+
+
 [Paper](paper_drafts/ASA_Mechanistic.pdf) | [Weights (HF)](https://huggingface.co/DigitalDaimyo/AddressedStateAttention) | [Demo](#quick-start)
 
 ---
