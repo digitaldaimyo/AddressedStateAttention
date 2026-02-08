@@ -11,7 +11,7 @@
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
 ](link)
-[Paper](paper_drafts/ASA_Mechanistic.pdf) | [Weights (HF)](link) | [Demo](#quick-start)
+[Paper](paper_drafts/ASA_Mechanistic.pdf) | [Weights (HF)](https://huggingface.co/DigitalDaimyo/AddressedStateAttention) | [Demo](#quick-start)
 
 ---
 
