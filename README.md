@@ -15,7 +15,7 @@
 [![Open Analysis Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_analysis.ipynb)
 
 **Training**:
-[![Open Training Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_analysis.ipynb)
+[![Open Training Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_training.ipynb)
 
 Browse all notebooks: https://github.com/digitaldaimyo/AddressedStateAttention/tree/main/notebooks
 
