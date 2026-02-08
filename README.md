@@ -19,8 +19,8 @@
 
 ```python
 # In Colab: download from GitHub
-!wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/asm_analysis.py
-!wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/universal_loader.py
+!wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/asa/analysis.py
+!wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/asa/universal_loader.py
 
 #or:
 !pip install git+https://github.com/DigitalDaimyo/AddressedStateAttention.git
