@@ -35,7 +35,7 @@ tokenizer = AutoTokenizer.from_pretrained("gpt2")
 # Generate text
 print(generate(model, tokenizer, "Once upon a time"))
 
-
+"""
 ---
 
 ## 7) Add a short “Results” section
