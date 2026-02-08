@@ -51,9 +51,9 @@ def load_asm_checkpoint(
     
     # Import appropriate harness
     if mode == "train":
-        from training import ASMTrainConfig, build_model_from_cfg
+        from .training import ASMTrainConfig, build_model_from_cfg
     else:  # analysis
-        from analysis import ASMTrainConfig, build_model_from_cfg
+        from .analysis import ASMTrainConfig, build_model_from_cfg
     
     # Build model using helper
     cfg = ASMTrainConfig(**cfg_dict)
