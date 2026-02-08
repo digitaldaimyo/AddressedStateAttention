@@ -18,24 +18,32 @@
 ## Quick Start
 
 ```python
-# In Colab: download from GitHub
-!wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/asa/analysis.py
-!wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/asa/universal_loader.py
-
-#or:
+# Install directly from GitHub
 !pip install git+https://github.com/DigitalDaimyo/AddressedStateAttention.git
 
 from asa import load_asm_checkpoint, generate
+from transformers import AutoTokenizer
 
-# Load model
-from universal_loader import load_asm_checkpoint
-
+# Load checkpoint
 model, cfg, ckpt = load_asm_checkpoint(
-    "path/to/checkpoint.pt",  # download from HF
+    "path/to/checkpoint.pt",
     mode="analysis"
 )
 
-# Generate
-from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
-# ... inference code
+
+# Generate text
+print(generate(model, tokenizer, "Once upon a time"))
+
+
+---
+
+## 7) Add a short “Results” section
+Turn your header stats into a proper table.
+
+```markdown
+## Results
+
+| Model | Params | Dataset | Steps | Val Loss | PPL |
+|------|--------|---------|------|----------|-----|
+| ASA | 187M | FineWeb | 75k | 3.73 | 41.6 |
