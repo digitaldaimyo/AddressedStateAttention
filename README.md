@@ -22,6 +22,11 @@
 !wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/asm_analysis.py
 !wget https://raw.githubusercontent.com/DigitalShogun/AddressedStateAttention/main/universal_loader.py
 
+#or:
+!pip install git+https://github.com/DigitalDaimyo/AddressedStateAttention.git
+
+from asa import load_asm_checkpoint, generate
+
 # Load model
 from universal_loader import load_asm_checkpoint
 
