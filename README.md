@@ -6,15 +6,11 @@
 🔬 **Mechanistic:** Refinement = directional suppression (α = -0.81)  
 ⚡ **Efficient:** O(T·K) vs O(T²) standard attention (K=16 slots)
 
-[
-
-![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
-](link)
-
 ## Notebooks
-
+**Analysis**:
 [![Open Analysis Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_analysis.ipynb)
 
+**Training**:
 [![Open Training Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitaldaimyo/AddressedStateAttention/blob/main/notebooks/asa_analysis.ipynb)
 
 Browse all notebooks: https://github.com/digitaldaimyo/AddressedStateAttention/tree/main/notebooks
