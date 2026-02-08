@@ -2,7 +2,7 @@
 
 **Interpretable slot-based attention achieving competitive language modeling performance**
 
-## Routing overview
+## Functional overview
 
 ![ASA functional overview](images/functionally.png)
 
