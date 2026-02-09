@@ -6,9 +6,9 @@
 
 ![ASA functional overview](images/functionally.png)
 
-📊 **187M params:** 3.73 val loss / 41.6 PPL (FineWeb, 75k steps)  
-🔬 **Mechanistic:** Refinement = directional suppression (α = -0.81)  
-⚡ **Efficient:** O(T·K) vs O(T²) standard attention (K=16 slots)
+**187M params:** 3.73 val loss / 41.6 PPL (FineWeb, 75k steps)  
+**Mechanistic:** Refinement = directional suppression (α = -0.81)  
+**Efficient:** O(T·K) vs O(T²) standard attention (K=16 slots)
 
 ## Notebooks
 **Analysis**:
